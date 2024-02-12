@@ -1,6 +1,6 @@
 import { FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-
+//Links 
 export default function Header() {
     return (
         <header className='bg-slate-200 shadow-md'>
@@ -11,6 +11,7 @@ export default function Header() {
                         <span className='text-slate-700'>Bhattarai </span>
 
                     </h1>
+
                 </Link>
                 <form className='bg-slate-100 p-3 rounded-lg flex items-center'>
                     <input type='text' placeholder='Search...' className='bg-transparent focus:outline-none w-24 sm:w-64' />
