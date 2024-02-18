@@ -17,10 +17,8 @@ export default function SignUp() {
     };
     // console.log(formData);
     const handleSubmit = async (e) => {
-        e.preventDefault()
+        e.preventDefault();
         try {
-
-
             setLoading(true);
             const res = await fetch('/api/auth/signup',
                 {
@@ -72,7 +70,8 @@ export default function SignUp() {
                     type="password"
                     placeholder="password"
                     className="border p-3 rounded-lg"
-                    id="password" onChange={handleChange}
+                    id="password"
+                    onChange={handleChange}
                 />
                 <button disabled={loading}
 
